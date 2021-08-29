@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CPPGAME_FPSCharacter_generated_h
 
 #define CPPGame_Source_CPPGame_FPSCharacter_h_12_SPARSE_DATA
-#define CPPGame_Source_CPPGame_FPSCharacter_h_12_RPC_WRAPPERS
-#define CPPGame_Source_CPPGame_FPSCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define CPPGame_Source_CPPGame_FPSCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execFireWeapon);
+
+
+#define CPPGame_Source_CPPGame_FPSCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFireWeapon);
+
+
 #define CPPGame_Source_CPPGame_FPSCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFPSCharacter(); \

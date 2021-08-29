@@ -18,7 +18,7 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Weapon");
 	float WeaponRange{ 1000 };
 
-	UFUNCTION(BlueprintCallable, Categoory = "Weapon")
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
 		void FireWeapon();
 
 protected:

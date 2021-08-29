@@ -18,8 +18,43 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_CPPGame();
 // End Cross Module References
+	DEFINE_FUNCTION(AFPSCharacter::execFireWeapon)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->FireWeapon();
+		P_NATIVE_END;
+	}
 	void AFPSCharacter::StaticRegisterNativesAFPSCharacter()
 	{
+		UClass* Class = AFPSCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "FireWeapon", &AFPSCharacter::execFireWeapon },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AFPSCharacter_FireWeapon_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFPSCharacter_FireWeapon_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Weapon" },
+		{ "ModuleRelativePath", "FPSCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPSCharacter_FireWeapon_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFPSCharacter, nullptr, "FireWeapon", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFPSCharacter_FireWeapon_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_FireWeapon_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFPSCharacter_FireWeapon()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFPSCharacter_FireWeapon_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AFPSCharacter_NoRegister()
 	{
@@ -28,6 +63,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 	struct Z_Construct_UClass_AFPSCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -42,6 +78,9 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 	UObject* (*const Z_Construct_UClass_AFPSCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_CPPGame,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AFPSCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AFPSCharacter_FireWeapon, "FireWeapon" }, // 3845207621
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSCharacter_Statics::Class_MetaDataParams[] = {
@@ -68,11 +107,11 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AFPSCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -87,7 +126,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSCharacter, 245120957);
+	IMPLEMENT_CLASS(AFPSCharacter, 1536042049);
 	template<> CPPGAME_API UClass* StaticClass<AFPSCharacter>()
 	{
 		return AFPSCharacter::StaticClass();
