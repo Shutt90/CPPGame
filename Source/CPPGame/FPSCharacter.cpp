@@ -12,6 +12,8 @@ AFPSCharacter::AFPSCharacter()
 
 }
 
+
+
 // Called when the game starts or when spawned
 void AFPSCharacter::BeginPlay()
 {
@@ -30,6 +32,13 @@ void AFPSCharacter::Tick(float DeltaTime)
 void AFPSCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+}
+
+void AFPSCharacter::FireWeapon()
+{
+
+
 
 }
 

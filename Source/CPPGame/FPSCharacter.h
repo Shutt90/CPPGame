@@ -18,6 +18,9 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Weapon");
 	float WeaponRange{ 1000 };
 
+	UFUNCTION(BlueprintCallable, Categoory = "Weapon")
+		void FireWeapon();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
