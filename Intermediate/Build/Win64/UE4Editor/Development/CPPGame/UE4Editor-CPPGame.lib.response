@@ -9,8 +9,10 @@
 "C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\CPPGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\CPPGame.cpp.obj"
 "C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\CPPGameGameModeBase.cpp.obj"
+"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\FPSCharacter.cpp.obj"
 "C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\CPPGame.init.gen.cpp.obj"
 "C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\CPPGameGameModeBase.gen.cpp.obj"
+"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\FPSCharacter.gen.cpp.obj"
 "C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\Default.rc2.res"
 /OUT:"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\UE4Editor-CPPGame.lib"
 /INCLUDE:IMPLEMENT_MODULE_CPPGame

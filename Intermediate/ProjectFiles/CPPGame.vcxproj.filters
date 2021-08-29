@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CPPGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{247FA1DF-1643-4C05-AC4E-B839826C3321}</UniqueIdentifier>
+      <UniqueIdentifier>{9B36BD89-D4A2-4D15-8B6F-18172D1B4080}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CPPGame.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\CPPGameEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{43312BDE-D834-48D5-A47F-BF1E16D417AB}</UniqueIdentifier>
+      <UniqueIdentifier>{A64F084A-D00D-4FA6-871B-35C8C2E676A8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +26,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CPPGame">
-      <UniqueIdentifier>{7F6F13D7-5652-431F-8C86-8BEA52FABF24}</UniqueIdentifier>
+      <UniqueIdentifier>{3EB6E19A-C9D8-4D65-BC72-FA457E707EFD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CPPGame\CPPGame.Build.cs">
       <Filter>Source\CPPGame</Filter>
@@ -39,6 +41,12 @@
       <Filter>Source\CPPGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CPPGame\CPPGameGameModeBase.h">
+      <Filter>Source\CPPGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPPGame\FPSCharacter.cpp">
+      <Filter>Source\CPPGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPGame\FPSCharacter.h">
       <Filter>Source\CPPGame</Filter>
     </ClInclude>
   </ItemGroup>

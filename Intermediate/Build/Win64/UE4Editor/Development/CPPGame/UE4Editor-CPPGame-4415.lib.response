@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CPPGame-4415.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\CPPGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\CPPGame.cpp.obj"
+"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\CPPGameGameModeBase.cpp.obj"
+"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\FPSCharacter.cpp.obj"
+"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\CPPGame.init.gen.cpp.obj"
+"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\CPPGameGameModeBase.gen.cpp.obj"
+"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\FPSCharacter.gen.cpp.obj"
+"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\Default.rc2.res"
+/OUT:"C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\UE4Editor-CPPGame-4415.lib"
+/INCLUDE:IMPLEMENT_MODULE_CPPGame
