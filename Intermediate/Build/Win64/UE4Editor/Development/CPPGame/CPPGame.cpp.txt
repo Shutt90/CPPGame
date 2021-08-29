@@ -1,0 +1,2 @@
+C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\Definitions.CPPGame.h
+C:\Users\liamp\Documents\Unreal Projects\CPPGame\Source\CPPGame\CPPGame.h

@@ -1,0 +1,7 @@
+C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Development\CPPGame\Definitions.CPPGame.h
+C:\Users\liamp\Documents\Unreal Projects\CPPGame\Source\CPPGame\CPPGameGameModeBase.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\liamp\Documents\Unreal Projects\CPPGame\Intermediate\Build\Win64\UE4Editor\Inc\CPPGame\CPPGameGameModeBase.generated.h

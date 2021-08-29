@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CPPGame",
+			"Path": "C:\\Users\\liamp\\Documents\\Unreal Projects\\CPPGame\\Source\\CPPGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CPPGameEditor",
+			"Path": "C:\\Users\\liamp\\Documents\\Unreal Projects\\CPPGame\\Source\\CPPGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
